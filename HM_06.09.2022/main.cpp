@@ -18,10 +18,17 @@ public:
 		x = X;
 		y = Y;
 	}
+	void Print()
+	{
+		cout << "X : " << x << endl;
+		cout << "Y : " << y << endl;
+	}
 };
 
 
 int main()
 {
+	Point p(6, 9);
+	p.Print();
 	return 0;
 }
