@@ -30,5 +30,7 @@ int main()
 {
 	Point p(6, 9);
 	p.Print();
+	Student st("Vladyslav", 18);
+	st.Print();
 	return 0;
 }
