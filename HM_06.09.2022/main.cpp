@@ -28,5 +28,7 @@ public:
 
 int main()
 {
+	Student st("Vladyslav", 18);
+	st.Print();
 	return 0;
 }
